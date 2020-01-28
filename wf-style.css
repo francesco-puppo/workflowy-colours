@@ -1,30 +1,33 @@
-/** 
-PRIORITIES 
-**/
+/***
+PRIORITIY
+***/
 span.contentTag[title="Filter @p1"] {
-color: black;
-background: lightpink;
-padding: 0 0.5em;
+    background: rgba(255,69,0,0.5);
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 0 .5em;
 }
 span.contentTag[title="Filter @p2"] {
-color: black;
-background: powderblue;
-padding: 0 0.5em;
+    background: rgba(255, 165,0,0.5);
+    border: 1px solid orange;
+    color: orange;
+    padding: 0 .5em;
 }
 span.contentTag[title="Filter @p3"] {
-color: black;
-background: lightblue;
-padding: 0 0.5em;
+    background: rgba(70,130,180,0.5);
+    border: 1.5px solid steelblue;
+    color: steelblue;
+    padding: 0em .5em;
 }
-/** 
-CONTEXT 
-**/
+/***
+CONTEXT
+***/
 span.contentTag[title="Filter @email"],
-span.contentTag[title="Filter @email"] {
-color: black;
-background: lightyellow;
-padding: 0 0.5em;
+span.contentTag[title="Filter @delegate"]{
+    background: lemonchiffon;
+    color:     rgb(42,49,53);;
+    padding: 0 .5em;
 }
 span.contentTag[title="Filter @dw"] {
-color: darkblue;
+    color: steelblue;
 }
