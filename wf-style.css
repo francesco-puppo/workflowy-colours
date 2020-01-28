@@ -1,0 +1,30 @@
+/** 
+PRIORITIES 
+**/
+span.contentTag[title="Filter @p1"] {
+color: black;
+background: lightpink;
+padding: 0 0.5em;
+}
+span.contentTag[title="Filter @p2"] {
+color: black;
+background: powderblue;
+padding: 0 0.5em;
+}
+span.contentTag[title="Filter @p3"] {
+color: black;
+background: lightblue;
+padding: 0 0.5em;
+}
+/** 
+CONTEXT 
+**/
+span.contentTag[title="Filter @email"],
+span.contentTag[title="Filter @email"] {
+color: black;
+background: lightyellow;
+padding: 0 0.5em;
+}
+span.contentTag[title="Filter @dw"] {
+color: darkblue;
+}
