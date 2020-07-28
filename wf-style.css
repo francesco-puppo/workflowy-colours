@@ -1,33 +1,44 @@
-/***
-PRIORITIY
-***/
-span.contentTag[title="Filter @p1"] {
-    background: rgba(255,69,0,0.5);
-    border: 1px solid orangered;
-    color: orangered;
-    padding: 0 .5em;
+/* LIGHT THEME .page.active._cy0gf4 */
+
+/* DARK THEME .page.active._r3rifr */
+ span.contentTag[title="Filter @p:high"], span.contentTag[title="Filter @issue"] {
+              padding-left:2px
+          }
+ span.contentTag[title="Filter @p:high"]:before {
+              content: '🔥'
+                                                                                                                                                }
+
+ span.contentTag[title="Filter @issue"]:before {
+              content: '💀'
+                                                                                                                                                }
+
+
+span.contentTag[title="Filter @task"] {
+    padding-left:2px
 }
-span.contentTag[title="Filter @p2"] {
-    background: rgba(255, 165,0,0.5);
+span.contentTag[title="Filter @task"]:before {
+    content:'✔';
+}
+span.contentTag[title="Filter @p:medium"] {
+    background: rgba(255, 165, 0, 0.5);
     border: 1px solid orange;
     color: orange;
     padding: 0 .5em;
 }
-span.contentTag[title="Filter @p3"] {
-    background: rgba(70,130,180,0.5);
+span.contentTag[title="Filter @p:low"] {
+    background: rgba(70, 130, 180, 0.5);
     border: 1.5px solid steelblue;
     color: steelblue;
-    padding: 0em .5em;
+    padding: 0em 0.5em;
 }
-/***
-CONTEXT
-***/
-span.contentTag[title="Filter @email"],
-span.contentTag[title="Filter @delegate"]{
+span.contentTag[title="Filter @email"], span.contentTag[title="Filter @delegate"], span.contentTag[title="Filter @idea"] {
     background: lemonchiffon;
-    color:     rgb(42,49,53);;
+    color: rgb(42, 49, 53);
     padding: 0 .5em;
 }
 span.contentTag[title="Filter @dw"] {
     color: steelblue;
+}
+::-webkit-scrollbar {
+    display: none;
 }
